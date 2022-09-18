@@ -1,0 +1,97 @@
+body {
+  font-family: "Roboto Light", sans-serif;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.p05{
+  padding: 0 5%;
+}
+.header {
+  font-size: 24px;
+  background: #007765;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.n1 {
+  width: 50%;
+  margin: 0 2%;
+  text-align: right;
+}
+.lyst__m {
+  margin: 0 2%;
+  list-style-type: none;
+}
+.menu {
+  justify-content: right;
+  display: flex;
+}
+.w {
+  color: #fff;
+}
+.fon1{
+    width: 100%;
+    height: 30%;
+    background-size: cover;
+}
+.div1{
+  font-size: 200%;
+  text-align: center;
+  justify-content: center;
+  background-size: cover;
+  margin: 0;
+  padding: 10%;
+  background-image: url(../imghw2/image.png);
+}
+.div2{
+  margin: 0;
+  padding: 3% 0;
+  font-size: 150%;
+}
+.h12{
+  text-align: center;
+}
+.div3{
+  font-size: 200%;
+  text-align: center;
+  justify-content: center;
+  background-size: cover;
+  margin: 0;
+  padding: 10%;
+  background-image: url(../imghw2/image2.png);
+}
+.div4{
+  font-size: 150%;
+  background-size: cover;
+  margin: 0;
+  padding: 3% 0;
+}
+.p4{
+  margin: 0 3% 0 0;
+}
+.div5{
+  padding: 3%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.gr{
+  color: #007765;
+}
+.port{
+  margin: 0 5%;
+}
+.div52{
+  font-size: 150%;
+}
+footer{
+  background-color: #333333;
+  text-align: center;
+  padding: 3% 20%;
+}
