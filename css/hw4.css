@@ -35,6 +35,108 @@ body{
 /* header */
 
 .header{
+    position: relative;
     min-height: 940px;
-    
+    padding-top: 44px;
+    color: #fff;
+
+    background: linear-gradient(132.05deg, #428E5F -17.38%, #112120 78.4%), #204434;
+}
+
+.header a{
+    color: #fff;
+}
+
+.header::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 96px;
+
+    background-image: url("../imghw3/header/Vector 6.svg");
+    background-size: 100%;
+}
+
+.header__content{
+    max-width: 592px;
+}
+.header__top{
+    margin-bottom: 86px;
+}
+/* nav */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 80px;
+}
+
+.nav__logo{
+
+}
+
+.nav__list ul{
+    display: flex;
+    column-gap: 80px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav__list a{
+    position: relative;
+}
+
+.nav__list a.active::after,
+.nav__list a:hover::after{
+    content: '';
+    display: block;
+    height: 4px;
+    border-radius: 50px;
+    background-color: #c4c4c4;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+}
+
+.nav__login ul{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* logo */
+
+.logo{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* button */
+
+.btn{
+    display: inline-block;
+    padding: 13px 44px;
+
+
+    font-size: 15px;
+    font-weight: 500;
+
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
+    border-radius: 100px;
+}
+
+.btn:hover{
+    color: #000000;
+    transition: color 0.2s ease-in;
+}
+
+.btn:active{
+    position: relative;
+    top: 1px;
 }
