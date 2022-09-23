@@ -211,17 +211,17 @@ body{
     padding: 96px 0 100px;
     overflow-x: hidden;
 }
-
+.destinations__slider{
+    width: 1110px;
+    flex-shrink: 0;
+}
 .destinations__row{
     display: flex;
     column-gap: 50px;
 }
 
-.container-right {
-}
-
 .destinations__content {
-    max-width: 450px;
+    max-width: 456px;
 }
 .destinations__title {
     margin-bottom: 15px;
@@ -260,7 +260,7 @@ body{
 
 .destinations__slider {
     flex-shrink: 0;
-    width: 1110%;
+    width: 100%;
 }
 
 /* slider */
@@ -279,3 +279,6 @@ body{
     width: 380px;
     height: 456px;
 }
+
+/*---------------*/
+
