@@ -284,10 +284,15 @@ body {
 	justify-content: flex-end;
 }
 
-/* Customers */
+/*Customers */
 
 .customers {
 	padding: 100px 0 133px;
+}
+
+.container {
+	display: flex;
+	column-gap: 68px;
 }
 
 .customers__row {
@@ -312,7 +317,7 @@ body {
 	font-weight: 500;
 }
 
-/* Review */
+/*Review */
 
 .review {
 	max-width: 490px;
@@ -341,6 +346,7 @@ body {
 	font-size: 33px;
 	font-weight: 500;
 }
+
 .review__client-desc-country {
 	font-size: 25px;
 	color: var(--secondary);
@@ -352,10 +358,11 @@ body {
 	font-size: 22px;
 	font-weight: 500;
 }
+
 .review__rating {
 }
 
-/* CTA */
+/* CTA *//*
 
 .cta {
 	padding: 100px 0;
@@ -409,7 +416,7 @@ body {
     color: var(--secondary);
 }
 
-/* Subscribe */
+*//* Subscribe *//*
 
 .subscribe {
     padding: 35px 0 50px;
@@ -430,7 +437,7 @@ body {
     font-weight: 600;
 }
 
-/* subscribe-form */
+*//* subscribe-form *//*
 
 .subscribe-form {
     padding: 12px 15px 12px 46px;
@@ -450,7 +457,7 @@ body {
     color: var(--secondary);
 }
 
-/* Footer */
+*//* Footer *//*
 
 .footer {
     padding: 56px 0 74px;
@@ -460,7 +467,7 @@ body {
     color: var(--secondary)
 }
 
-/* Buttons */
+*//* Buttons */
 
 .btn {
 	display: inline-block;
